@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive personal portfolio website</title>
+    <link rel="icon" href="./UserAssets/logo.png" type="image/png">
+
+    <!-- FONT AWESOME CDN-->
+    <script src="https://kit.fontawesome.com/6ac93ad68e.js" crossorigin="anonymous"></script>
+
+    <!--Google Font(POPPINSE)-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Vesper+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Poppins:ital,wght@1,300&family=Vesper+Libre&display=swap" rel="stylesheet">
+
+    <!-- SWIPER JS-->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+
+    <!-- ANIMATED oN sCroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    
+<nav>
+    <div class="container nav_container">
+        <a href="index.html" class="nav_logo">
+          <img src="./UserAssets/logo.png" alt="Navbar Logo">  
+        </a>
+        <ul class="nav_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">Contact</a></li>      
+        </ul>
+
+            <div class="nav_buttons">
+
+                <button class="nav_theme-btn"><i class="far fa-moon"></i></button>
+                <button class="nav_toggle-open"><i class="fas fa-bars"></i></button>              
+                <button class="nav_toggle-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+    </div>
+</nav>
+
+
+<!--==============================================END OF NAV BAR========================================================--->
+
+
+
+
+
+
+<header>
+    <div class="container header_container">
+        <article class="header_image" data-aos="fade-up" data-aos-delay="700ms">
+            <div><img src="UserAssets/sama-removebg-preview.png" alt="Header Image"></div>
+        </article>
+        <article class="header_content" data-aos="fade-up">
+            <h4>Hi, I'm <span>Samadhan Ghorpade </span>.And I'll</h4>
+            <h1>Get your business</br>online the right way</h1>
+            <p>Are you looking for a professional developer to put your business online? You've come
+                to the right place! I've helped hundreds of business owners bring their ideas to life.
+            Hire me today! </p>
+            <div class="header_cta">
+                <a href="#contact" class="btn primary">Hire me</a>
+                <a href="#projects" class="btn">portfolio</a>
+
+            </div>
+        </article>
+        <ul class="header_socials">
+            <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+
+        </ul>
+    </div>
+</header>
+<!-- ==============================================END OF HEADER================================================-->
+
+
+
+<section class="about" id="about">
+    <div class="container about_container">
+        <div class="about_image">
+            <img src="UserAssets/samaAbout.jpg" alt="About image">
+        </div>
+        <div class="about_details" data-aos="fade-up" data-aos-delay="300ms">
+            <h1>About me</h1>
+            <div class="about_card">
+                <article class="about_card1">
+                    <i class="fa-solid fa-award"></i>
+                    <h4>Experience</h4>
+                    <small>11+ years</small>
+                </article>
+                <article class="about_card2">
+                    <i class="fa-brands fa-r-project"></i>
+                    <h4>Project</h4>
+                    <small>10+ completed</small>
+                </article>
+                <article class="about_card3">
+                    <i class="fa-solid fa-users"></i>
+                    <h4>Clients</h4>
+                    <small>12+ worldwide</small>
+                </article>
+            </div>
+            <p>Building projects my clients love has always been my passion. Being in the web development industry for over 11 years and serving more than 70 happy clients worldwide, I'm always motivated to do more!</p>
+            <p>Hi, my name is Samadhan Ghorpade from India. I'm a Full-stack web developer with a Bachelor's degree in Computer Science. My top priority is to get your business online the right way, giving you industry-standard design and all the functionality you need to operate smoothly online. Get in touch today with the details of your project. Let's get started! Check out my resume below!</p>
+            <a href="UserAssets/resume.pdf" class="btn primary" download target="_blank" title="Download Resume"><i class="fas fa-download"></i> Download CV</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ==============================================END OF ABOUT SECTION================================================-->
+
+
+
+
+
+
+<section class="services" id="services">
+    <h1>Services</h1>
+    <p>Adipisicing elit illo odio culpa molestias dolores cum bearae</p>
+    <div class="container services_container">
+        <ul class="services_left">
+           <li class="service_item frontend  active">
+                <span> <i class="fa-solid fa-desktop"></i> </span>
+                <div>
+                    <h3>frontend</h3>
+                    <p>10 project</p>
+                </div>
+           </li>
+           <li class="service_item Backend">
+            <span> <i class="fa-solid fa-server"></i> </span>
+            <div>
+                <h3>Backend</h3>
+                <p>10 project</p>
+            </div>
+       </li><li class="service_item fullstack">
+        <span> <i class="fa-solid fa-table-cells-large"></i> </span>
+        <div>
+            <h3>Fullstack</h3>
+            <p>10 project</p>
+        </div>
+   </li>
+        </ul>
+         <article class="services_right" data-aos="fade-up" data-aos-delay="200ms">
+            <div class="services_details">
+                 <h3>Frontend development</h3>
+
+              <p>frontend development Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quis veritatis et aut cupiditate perferendis nesciunt vel totam. Est porro adipisci repellendus consequuntur impedit 
+                laudantium provident veniam consectetur voluptatem nisi.
+                Minima, eaque autem alias quaerat voluptate, suscipit voluptatum quasi architecto pariatur. Aut suscipit quis quas rerum?Lorem ipsum dolor,
+                sit amet consectetur adipisicing elit. Similique et possimus quasi voluptatibus quos consequuntur molestiae nemo, distinctio recusandae eius mollitia exercitationem,
+                velit molestias dolore repudiandae quod. Veritatis, necessitatibus fugit.
+                Dicta officiis sapiente mollitia similique ipsum dolores? Dolorem illum rovident in enim sint distinctio culpa explicabo odio. Ullam aspernatur cupiditate fuga molestias.
+                Lore ipsam nam voluptatem repellendus unde ab, optio in dolorem hic quas sequi distinctio eaque, ducimus vel nihil quisquam, animi ad sit.
+                Minus at id maiores perspiciatis, ducimus odit consequuntur ex ab, 
+                eveniet recusandae aspernatur inventore molestiae debitis iure  quod natus</p>
+            </div>
+        </article>  
+
+    </div>
+
+</section>
+
+
+<!-- ==============================================END OF SERVICE SECTION================================================-->
+
+
+
+
+
+
+<section class="projects" id="projects">
+    <h1>Recent Project</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. jksjd dkdjsd em optio dolorem facilis, quibusdam eligendi harum.</p>
+    <ul class="projects_categoris">
+        <li class="active" data-filter="*">All</li>
+        <li data-filter=".frontend">frontend</li>
+        <li data-filter=".backend">Backend</li>
+        <li data-filter=".fullstack">fullstack</li>
+    </ul>
+    
+
+
+    <div class="container projects_container" data-aos="fade-up" >
+        <article class="project mix fullstack" data-order="1">
+            <div class="project_image">
+                <img src="./UserAssets/project1.jpg" alt="project image one">
+            </div>
+            <h3>project one titile(fullstack)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, assumenda! Consequatur, aspernatur reiciendis! Libero eligendi cumque ipsa debitis laudantium nemo itaque tenetur rerum ad sapiente recusandae voluptas, porro ipsam esse!
+            Neque eligendi provident, molestias, ex temporibus vero dolores!</p>
+            <div class="project_cta">
+                <a href="https://google.com" class="btn sm primary" target="_blank">Demo</a>
+                <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+
+            </div>
+        </article>
+        <article class="project mix frontend" data-order="2">
+            <div class="project_image">
+                <img src="./UserAssets/project2.jpg" alt="project image two">
+            </div>
+            <h3>project one titile(frontend)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, assumenda! Consequatur, aspernatur reiciendis! Libero eligendi cumque ipsa debitis laudantium nemo itaque tenetur rerum ad sapiente recusandae voluptas, porro ipsam esse!
+            Neqidunt nulla eius provident, molestias, ex temporibus vero dolores!</p>
+            <div class="project_cta">
+                <a href="https://google.com" class="btn sm primary" target="_blank">Demo</a>
+                <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+
+            </div>
+        </article>
+        
+        <article class="project mix fullstack" data-order="3">
+            <div class="project_image">
+                <img src="./UserAssets/project3.jpg" alt="project image thrid">
+            </div>
+            <h3>project one titile(fullstack)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, assumenda! Consequatur, aspernatur reiciendis! Libero eligendi cumque ipsa debitis laudantium nemo itaque tenetur rerum ad sapiente recusandae voluptas, porro ipsam esse!
+            Neque eligend eius provident, molestias, ex temporibus vero dolores!</p>
+            <div class="project_cta">
+                <a href="https://google.com" class="btn sm primary" target="_blank">Demo</a>
+                <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+
+            </div>
+        </article>
+        
+        <article class="project mix fullstack" data-order="4">
+            <div class="project_image">
+                <img src="./UserAssets/project4.jpg" alt="project image fourth">
+            </div>
+            <h3>project one titile(fullstack)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, assumenda! Consequatur, aspernatur reiciendis! Libero eligendi cumque ipsa debitis laudantium nemo itaque tenetur rerum ad sapiente recusandae voluptas, porro ipsam esse!
+            Neque eligendi officiis uprovident, molestias, ex temporibus vero dolores!</p>
+            <div class="project_cta">
+                <a href="https://google.com" class="btn sm primary" target="_blank">Demo</a>
+                <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+
+            </div>
+        </article>
+        
+        <article class="project mix frontend" data-order="5">
+            <div class="project_image">
+                <img src="./UserAssets/project5.jpg" alt="project image fifth">
+            </div>
+            <h3>project one titile(frontend)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, assumenda! Consequatur, aspernatur reiciendis! Libero eligendi cumque ipsa debitis laudantium nemo itaque tenetur rerum ad sapiente recusandae voluptas, porro ipsam esse!
+            Neque eligendi officiis ullam  molestias, ex temporibus vero dolores!</p>
+            <div class="project_cta">
+                <a href="https://google.com" class="btn sm primary" target="_blank">Demo</a>
+                <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+
+            </div>
+        </article>
+        
+        <article class="project mix frontend" data-order="6">
+            <div class="project_image">
+                <img src="./UserAssets/project6.jpg" alt="project image sixth">
+            </div>
+            <h3>project one titile(frontend)</h3>
+            <p>Lorem ipsum dolor sit aetur rerum ad sapiente recusandae voluptas, porro ipsam esse!
+            Neque eligendi officiis ullam ueuhue ehdeuhuew ehwejh hjewh uehe eheh  heeh uyjhey sed est labore rem explicabo aspernatur. Deserunt voluptatem repellat itaque deleniti veniam samadhan dolores!</p>
+            <div class="project_cta">
+                <a href="https://google.com" class="btn sm primary" target="_blank">Demo</a>
+                <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+
+            </div>
+        </article>
+        
+        <article class="project mix frontend" data-order="7">
+            <div class="project_image">
+                <img src="./UserAssets/project7.jpg" alt="project image seventh">
+            </div>
+            <h3>project one titile(frontend)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, assumenda! Consequatur, aspernatur reiciendis! Libero eligendi cumque ipsa debitis laudantium nemo itaque tenetur rerum ad sapiente recusandae voluptas, porro ipsam esse!
+            Neque eligendi officiis uaolores!</p>
+            <div class="project_cta">
+                <a href="https://google.com" class="btn sm primary" target="_blank">Demo</a>
+                <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+
+            </div>
+        </article> 
+        
+        <article class="project mix backend" data-order="8">
+            <div class="project_image">
+                <img src="./UserAssets/project8.jpg" alt="project image eight">
+            </div>
+            <h3>project one titile(Backend)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, assumenda! Consequatur, aspernatur reiciendis! Libero eligendi cumque ipsa debitis laudantium nemo itaque tenetur rerum ad sapiente recusandae voluptas, porro ipsam esse!
+            Neque eligendi officiis ullam sed est laborolores!</p>
+            <div class="project_cta">
+                <a href="https://google.com" class="btn sm primary" target="_blank">Demo</a>
+                <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+
+            </div>
+        </article> 
+        
+        <article class="project mix backend" data-order="9">
+            <div class="project_image">
+                <img src="./UserAssets/project9.jpg" alt="project image nine">
+            </div>
+            <h3>project one titile(Backend)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, assumenda! Consequatur, aspernatur reiciendis! Libero eligendi cumque ipsa debitis laudantium nemo itaque tenetur rerum ad sapiente recusandae voluptas, porro ipsam esse!
+            Neque eligendi officiis ullam sed est labore rem explicaboero dolores!</p>
+            <div class="project_cta">
+                <a href="https://google.com" class="btn sm primary" target="_blank">Demo</a>
+                <a href="https://github.com" class="btn sm " target="_blank">Github</a>
+
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- ==============================================END OF PROJECT SECTION ================================================-->
+
+
+
+
+<section class="swiper">
+    <h1>What my clients say</h1>
+    <p>This is what my client say about me and my work</p>
+    <div class="swiper-wrapper">
+        <figure class="swiper-slide">
+            <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Autem rem qui, aliquam consequuntur voluptates repellendus obcaecati quam veniam fugiat illo, nulla alias?
+            </figcaption>
+            <div class="swiper_client">
+                <div class="swiper_client-avtar">
+                    <img src="./UserAssets/asad.webp" alt="Client one">
+                </div>
+                <div class="swiper_client-details">
+                    <h5>maduri choudary</h5>
+                    <small>Actress</small>
+                </div>
+            </div>
+        </figure>
+        <figure class="swiper-slide">
+            <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Autem rem qui, aliquam consequuntur voluptates repellendus obcaecati quam veniam fugiat illo, nulla alias?
+            </figcaption>
+            <div class="swiper_client">
+                <div class="swiper_client-avtar">
+                    <img src="./UserAssets/avatar1.jpg" alt="Client one">
+                </div>
+                <div class="swiper_client-details">
+                    <h5>maduri choudary</h5>
+                    <small>Actress</small>
+                </div>
+            </div>
+        </figure>
+        <figure class="swiper-slide">
+            <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Autem rem qui, aliquam consequuntur voluptates repellendus obcaecati quam veniam fugiat illo, nulla alias?
+            </figcaption>
+            <div class="swiper_client">
+                <div class="swiper_client-avtar">
+                    <img src="./UserAssets/avatar2.jpg" alt="Client one">
+                </div>
+                <div class="swiper_client-details">
+                    <h5>maduri choudary</h5>
+                    <small>Actress</small>
+                </div>
+            </div>
+        </figure>
+        <figure class="swiper-slide">
+            <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Autem rem qui, aliquam consequuntur voluptates repellendus obcaecati quam veniam fugiat illo, nulla alias?
+            </figcaption>
+            <div class="swiper_client">
+                <div class="swiper_client-avtar">
+                    <img src="./UserAssets/avatar3.jpg" alt="Client one">
+                </div>
+                <div class="swiper_client-details">
+                    <h5>maduri choudary</h5>
+                    <small>Actress</small>
+                </div>
+            </div>
+        </figure>
+        <figure class="swiper-slide">
+            <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Autem rem qui, aliquam consequuntur voluptates repellendus obcaecati quam veniam fugiat illo, nulla alias?
+            </figcaption>
+            <div class="swiper_client">
+                <div class="swiper_client-avtar">
+                    <img src="./UserAssets/avatar4.jpg" alt="Client one">
+                </div>
+                <div class="swiper_client-details">
+                    <h5>maduri choudary</h5>
+                    <small>Actress</small>
+                </div>
+            </div>
+        </figure>
+        <figure class="swiper-slide">
+            <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Autem rem qui, aliquam consequuntur voluptates repellendus obcaecati quam veniam fugiat illo, nulla alias?
+            </figcaption>
+            <div class="swiper_client">
+                <div class="swiper_client-avtar">
+                    <img src="./UserAssets/avatar5.jpg" alt="Client one">
+                </div>
+                <div class="swiper_client-details">
+                    <h5>maduri choudary</h5>
+                    <small>Actress</small>
+                </div>
+            </div>
+        </figure>
+        <figure class="swiper-slide">
+            <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Autem rem qui, aliquam consequuntur voluptates repellendus obcaecati quam veniam fugiat illo, nulla alias?
+            </figcaption>
+            <div class="swiper_client">
+                <div class="swiper_client-avtar">
+                    <img src="./UserAssets/avatar6.jpg" alt="Client one">
+                </div>
+                <div class="swiper_client-details">
+                    <h5>maduri choudary</h5>
+                    <small>Actress</small>
+                </div>
+            </div>
+        </figure>
+        <figure class="swiper-slide">
+            <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Autem rem qui, aliquam consequuntur voluptates repellendus obcaecati quam veniam fugiat illo, nulla alias?
+            </figcaption>
+            <div class="swiper_client">
+                <div class="swiper_client-avtar">
+                    <img src="./UserAssets/avatar7.jpg" alt="Client one">
+                </div>
+                <div class="swiper_client-details">
+                    <h5>maduri choudary</h5>
+                    <small>Actress</small>
+                </div>
+            </div>
+        </figure>
+    </div>
+<!--if we need pagination-->
+ <div class="swiper-pagination"></div>
+
+</section>
+
+<!-- ==============================================END OF TESTIMONIAL SECTION ================================================-->
+
+
+
+
+<section class="contact" id="contact">
+
+<div class="container contact_container">
+    <ul class="contact_list">
+        <li data-aos="fade-up"> <a href="mailto:sdghorpade2003@gmail.com" class="contact_list-item" target="_blank">
+            <i class="fa-regular fa-envelope"></i> 
+        </a>
+        </li>
+
+        <li data-aos="fade-up" data-aos-delay="150ms"> <a href="httaps://www.messenger.com" class="contact_list-item" target="_blank">
+            <i class="fa-brands fa-facebook-messenger"></i>
+        </a>
+        </li>
+
+        <li data-aos="fade-up" data-aos-delay="300"> <a href="https://wa.me/+919359035584" class="contact_list-item" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        </li>
+
+        <li data-aos="fade-up" data-aos-delay="450"> <a href="tel:+919067442486" class="contact_list-item" target="_blank">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+        </li>
+        
+
+        
+    </ul>
+
+
+    <form action="https://formsubmit.co/785688806481bc28fbe3b69d413ebdf" method="POST" class="contact_form" data-aos="fade-up">
+        <input type="text" name="Name" placeholder="Full name">
+        <input type="email" name="Email" placeholder="Email Address">
+        <textarea rows="7" name="Message" placeholder="Message"></textarea>
+        <button type="submit" class="btn">Send</button>
+    </form>
+</div>
+
+
+
+</section>
+
+<!-- ==============================================END OF CONTACT  SECTION ================================================-->
+
+
+
+<footer>
+    <div class="container footer_container">
+        <ul class="footer_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">Contact</a></li>  
+        </ul>
+        <ul class="footer_socials">
+            <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+        </ul>
+
+    </div>
+    <div class="footer_copyright">
+        <small>2024 SAMADHAN GHORPADE &copy; All Rights Reserved.</small>
+    </div>
+</footer>
+
+
+<!-- ==============================================END OF FOOTER  SECTION ================================================-->
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./mix/dist/mixitup.min.js"></script>
+<script src="./data.js"></script>
+<script src="./index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({duration: 1500, offset: 80});
+</script>
+</body>
+</html>
+
+
+
+
+
+
